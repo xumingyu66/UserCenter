@@ -3,9 +3,9 @@ spring:
   application:
     user-center
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: xu690421
-    url: jdbc:mysql://localhost:3306/project
+    url: jdbc:mysql://43.136.31.251:3306/userCenter
 server:
-  port: 8081
+  port: 8080
