@@ -1,0 +1,11 @@
+# DataSource Config
+spring:
+  application:
+    user-center
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: xu690421
+    url: jdbc:mysql://localhost:3306/project
+server:
+  port: 8081
